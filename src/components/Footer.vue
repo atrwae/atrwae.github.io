@@ -1,8 +1,8 @@
 <template>
   <div class="footer">
     
-    <div class="left"><a href="https://github.com/schouffy/gamedev-portfolio" target="blank">Portfolio</a> by schouffy</div>
-    <div class="right">Reach me at <a href="mailto:my@email.com">my@email.com</a> or <router-link to="/contact">through here</router-link></div>
+    <div class="left"><a href="https://github.com/schouffy/gamedev-portfolio" target="blank">Szablon</a> autorstwa schouffy</div>
+    <div class="right">Napisz do mnie na <a href="mailto:artur.midiaibim@gmail.com">artur.midiaibim@gmail.com</a> albo <router-link to="/contact">tutaj</router-link></div>
   </div>
 </template>
 

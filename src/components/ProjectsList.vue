@@ -7,8 +7,20 @@
               @click="showDetails(project)"
               class="project-item"
               :class="{ 'wide': project.isWide, 'high': project.isHigh }">
-            <div class="project-item-image" :style="{ 'background-image': 'url(' + project.iconUrl + ')' }">
-            </div>
+            <!--<div class="project-item-image" :style="{ 'background-image': 'url(' + project.iconUrl + ')' }">
+            </div>-->
+			<div class="project-item-image">
+				<video
+                v-if="project.iconUrl"
+                autoplay=""
+                loop=""
+                muted=""
+                playsinline=""
+                class="background-video" height="100%">
+				<source :src="project.iconUrl" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+			</div>
             <div class="title-bar" :style="{ 'background-color': project.accentColor + 'DD' }">
                 <div class="title-text">
                   {{ project.name }}

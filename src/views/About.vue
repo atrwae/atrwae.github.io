@@ -1,16 +1,16 @@
 <template>
   <div style="margin-bottom: 80px;">
-    <h1>Hello!</h1>
+    <h1>Cześć!</h1>
 
     <div class="paragraph">
       <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
+        Nazywam się <strong>Artur Wiącek</strong>, jestem Unity Developerem z 3-letnim komercyjnym doświadczeniem.<br/>
+        Kocham wszystko co związane z grami, biorę udział w masie eventów, a oprócz wielu gier wideo zrobiłem swoją karciankę i nawet własną konsolę do gier.
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+      <div style="margin-top: 20px;">Komercyjnie pracowałem wyłącznie przy <router-link to="/other-projects">portowaniu</router-link>, ale mam też sporo <router-link to="/game-projects">własnych projektów</router-link> i innych rzeczy w <router-link to="/resume">moim cv</router-link>.</div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 40px;">Obecnie pracuję nad swoją grą <a href="mailto:johnmatrix@deltaforce.us">Astrolings</a> i szukam pracy. Możesz się ze mną skontaktować <router-link to="/contact">tutaj</router-link>.</div>
     </div>
 
     <div class="photo">
