@@ -9,18 +9,16 @@
               :class="{ 'wide': project.isWide, 'high': project.isHigh }">
             <!--<div class="project-item-image" :style="{ 'background-image': 'url(' + project.iconUrl + ')' }">
             </div>-->
-			<div class="project-item-image">
-				<video
-                v-if="project.iconUrl"
-                autoplay=""
-                loop=""
-                muted=""
-                playsinline=""
-                class="background-video" height="100%">
+			<video
+				v-if="project.iconUrl"
+				autoplay=""
+				loop=""
+				muted=""
+				playsinline=""
+				class="project-item-video">
 				<source :src="project.iconUrl" type="video/mp4">
-                Your browser does not support the video tag.
-                </video>
-			</div>
+				Your browser does not support the video tag.
+            </video>
             <div class="title-bar" :style="{ 'background-color': project.accentColor + 'DD' }">
                 <div class="title-text">
                   {{ project.name }}
@@ -100,8 +98,20 @@ export default Vue.extend({
   transform: scale(1.1);
 }
 
+.project-item-video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.2s;
+}
+.project-item-video:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 .project-item:hover {
-filter: brightness(120%);
+  filter: brightness(120%);
 }
 
 .title-bar {
