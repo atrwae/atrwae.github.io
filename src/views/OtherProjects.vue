@@ -3,7 +3,7 @@
     <h1>Portowanie</h1>
 
     <div style="margin-bottom: 30px;">
-      Niektóre z wykonanych przeze mnie portów na różne konsole.
+      Porty na różne konsole przy których pracowałem, większość solo.
     </div>
     <ProjectsList v-bind:projects="projects" />
   </div>

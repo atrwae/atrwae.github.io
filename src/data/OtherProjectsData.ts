@@ -25,7 +25,7 @@ export default [
           <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
           <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" /> 
         </div>
-    `, "#c10606", false, true),
+    `, "#F9A620", false, true),
     new ProjectData("project-7", "Cyjin", "img/projects/cyjin-thumbnail.mp4", `
     <div class="paragraph">
                 <strong>Drew Blood</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
@@ -53,7 +53,7 @@ export default [
                 <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
                 <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" /> 
             </div>`, "#1ca1e2"),
-    new ProjectData("project-8", "Uboat Attack", "img/projects/cyjin-thumbnail.mp4", `
+    new ProjectData("project-8", "Uboat Attack", "img/projects/uboatAttack-thumbnail.mp4", `
     <div class="paragraph">
                 <strong>The Art of Walking</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
             </div>
@@ -82,7 +82,7 @@ export default [
                 <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="The Art of Walking Screenshot" />
                 <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="The Art of Walking Screenshot" />
             </div>`),
-    new ProjectData("project-9", "Master Spy", "img/projects/cyjin-thumbnail.mp4", `
+    new ProjectData("project-9", "Master Spy", "img/projects/masterSpy-thumbnail.mp4", `
      <div class="paragraph">
                 <strong>Nikolable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
                 <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@goumbik">Lukas</a>.
@@ -102,7 +102,7 @@ export default [
               <div class="notice">
                 Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
               </div>
-            </div>`),
+            </div>`, '#c10606'),
     new ProjectData("project-10", "Not Not", "img/projects/notnot-thumbnail.mp4", `
      <div class="paragraph">
                 <strong>Nikolable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
@@ -123,8 +123,8 @@ export default [
               <div class="notice">
                 Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
               </div>
-            </div>`, "#c10606", true, false),
-    new ProjectData("project-11", "Woodturning", "img/projects/cyjin-thumbnail.mp4", `
+            </div>`, "#BEB2C8", true, false),
+    new ProjectData("project-11", "Woodturning", "img/projects/woodturning-thumbnail.mp4", `
      <div class="paragraph">
                 <strong>Nikolable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
                 <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@goumbik">Lukas</a>.
@@ -144,8 +144,8 @@ export default [
               <div class="notice">
                 Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
               </div>
-            </div>`),
-    new ProjectData("project-12", "Zombie Raft", "img/projects/cyjin-thumbnail.mp4", `
+            </div>`, '#A4036F'),
+    new ProjectData("project-12", "Zombie Raft", "img/projects/zombieRaft-thumbnail.mp4", `
      <div class="paragraph">
                 <strong>Nikolable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
                 <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@goumbik">Lukas</a>.
@@ -165,5 +165,5 @@ export default [
               <div class="notice">
                 Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
               </div>
-            </div>`),
+            </div>`, '#26C485'),
 ];
