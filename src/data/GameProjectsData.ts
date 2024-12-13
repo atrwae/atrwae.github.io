@@ -1,153 +1,25 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-1", "Astrolings", "img/projects/astrolings-thumbnail.mp4", 
-    `
-    <div class="paragraph">
-     <strong>Optimistic Chubby</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
-     <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
-    </div>
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="paragraph center">
-        <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
-    </div>
-
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-    <div class="paragraph center">
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-    </div>
+    new ProjectData("project-1", "Astrolings", "img/projects/astrolings-thumbnail.mp4", `
+    Gra multiplayer na PC i Android nad którą sam pracuję przez ostatnie 3 miesiące (stan na grudzień 2024). Z założenia ma być podobna do 'Super Auto Pets' ale z większym naciskiem na deck building i customizację posiadanych zwierzątek oraz wydarzenia sezonowe.
+    <br />
+    <br />Wraz z postępem pracy pojawi się tutaj więcej informacji, linków i screenshotów.
     `, "#23bd69", true, true),
     new ProjectData("project-2", "Artykuł 'Unity View Cone Tutorial'", "img/projects/viewConeArticle-thumbnail.mp4", `
-    <div class="paragraph">
-        <strong>Optimistic Chubby Blog</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@adonyi-gabor-604571">Adonyi Gábor</a>.
-    </div>
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-    <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-    </div>
-    </div>
-
-    <div class="paragraph center">
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    </div>
+    <a href="https://itch.io/blog/521186/unity-view-cone-tutorial" target="blank">Link do artykułu</a>
     `, "#5a78af"),
     new ProjectData("project-3", "Artykuł 'Unity Superliminal Tutorial'", "img/projects/superliminalArticle-thumbnail.mp4", `
-    <div class="paragraph">
-        <strong>Drawing Overload</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@miphotography">Miesha Maiden</a>.
-    </div>
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-        Playable in the browser (WebGL) on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-        </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-    </div>
+    <a href="https://itch.io/blog/547361/unity-superliminal-tutorial" target="blank">Link do artykułu</a>
     `, "#383838"),
     new ProjectData("project-4", "Hell Hotel", "img/projects/hellHotel-thumbnail.mp4", `
-    <div class="paragraph">
-    <strong>Eugeneable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-    <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
-    </div>
-    
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-    </div>
+    Projekt studencki na Politechnice Warszawskiej w którym oprócz programowania sprawowałem rolę faktycznego leada 6-osobowego zespołu.
+    <br />
+    <br />Gra do pobrania jest za darmo <a href="https://rickimanda.itch.io/hell-hotel" target="blank">tutaj</a>.
     `, "#e80fb7"),
-    new ProjectData("project-5", "Cyborg", "img/projects/flashout3-thumbnail.mp4", `
-    <div class="paragraph">
-        <strong>Cloud Drew Land</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@cottonbro">cottonbro</a>.
-    </div>
-    
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-        </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-    </div>`, "#e48246", false, true)
+    new ProjectData("project-5", "Cyborg", "img/projects/cyborg-thumbnail.mp4", `
+    Jeden z pierwszych moich projektów w Unity (Android).
+    <br />
+    <br />Gra została przeze mnie dokończona i wydana na Google Play zbierając około tysiąca pobrań. Niestety Google lubi usuwać nieodwracalnie konta deweloperów więc jakoś od marca 2024 nie da się już jej pobrać.
+    `, "#e48246", false, true)
 ];
