@@ -13,7 +13,7 @@
       <br />Poza programowaniem pasjonuję się grami wideo oraz wspinaczką. Kocham sport, jazdę na rowerze i podróże.
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i>Pobierz jako PDF</a>
+        <a class="download-link" href="d/cv.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i>Pobierz jako PDF</a>
         <div style="clear:both"></div>
       </div>
     </div>
