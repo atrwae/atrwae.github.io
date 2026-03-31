@@ -1,8 +1,11 @@
 <template>
   <div class="footer">
     
-    <div class="left"><a href="https://github.com/schouffy/gamedev-portfolio" target="blank">Szablon</a> autorstwa schouffy</div>
-    <div class="right">Napisz do mnie na <a href="mailto:artur.midiaibim@gmail.com">artur.midiaibim@gmail.com</a> albo <router-link to="/contact">tutaj</router-link></div>
+    <div class="left" v-html="t('footer.p1')"></div>
+    <div class="right">
+		<span v-html="t('footer.p2_0')"></span>
+		<router-link to="/contact">{{ t('footer.p2_1') }}</router-link>
+	</div>
   </div>
 </template>
 

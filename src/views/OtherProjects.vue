@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h1>Portowanie</h1>
+    <h1>{{ t('otherProjects.title') }}</h1>
 
     <div style="margin-bottom: 30px;">
-      Porty na różne konsole przy których pracowałem, większość solo.
-    </div>
+		{{ t('otherProjects.p1') }}
+	</div>
     <ProjectsList v-bind:projects="projects" />
   </div>
 </template>

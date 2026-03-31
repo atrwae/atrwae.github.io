@@ -1,15 +1,15 @@
 <template>
   <div>
-    <h1>Gry</h1>
+    <h1>{{ t('gameProjects.title') }}</h1>
 
     <div style="margin-bottom: 30px;">
-      Zbiór gier które zrobiłem samemu albo w dużej części pomogłem plus dwa artykuły które napisałem.
-    </div>
+		{{ t('gameProjects.p1') }}
+	</div>
 
     <ProjectsList v-bind:projects="projects" />
 
     <div style="margin-top: 20px;">
-      Więcej moich projektów znajduje się w <router-link to="/other-projects">zakładce portowanie</router-link>
+		{{ t('gameProjects.p2_0') }}<router-link to="/other-projects">{{ t('gameProjects.p2_1') }}</router-link>
     </div>
   </div>
 </template>

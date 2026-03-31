@@ -9,7 +9,7 @@
         <div class="dialog-content">
           <div v-html="htmlContent"></div>
           <div class="dialog-bottom">
-          <a @click="$emit('close')" class="dialog-close-button">Close</a>
+          <a @click="$emit('close')" class="dialog-close-button">{{ t('close') }}</a>
         </div>
         </div>
       </div>

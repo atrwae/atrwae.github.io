@@ -1,16 +1,21 @@
 <template>
   <div style="margin-bottom: 80px;">
-    <h1>Cześć!</h1>
+    <h1>{{ t('about.hello') }}</h1>
 
     <div class="paragraph">
-      <div>
-        Nazywam się <strong>Artur Wiącek</strong>, jestem Unity Developerem z 3-letnim komercyjnym doświadczeniem.<br/>
-        Kocham wszystko co związane z grami, biorę udział w masie eventów, a oprócz wielu gier wideo zrobiłem swoją karciankę i nawet własną konsolę do gier.
-      </div>
+      <div v-html="t('about.p1')"></div>
 
-      <div style="margin-top: 20px;">Komercyjnie pracowałem wyłącznie przy <router-link to="/other-projects">portowaniu</router-link>, ale mam też sporo <router-link to="/game-projects">własnych projektów</router-link> i innych rzeczy w <router-link to="/resume">moim cv</router-link>.</div>
+    <div style="margin-top: 20px;">
+		{{ t('about.p2_0') }}<router-link to="/other-projects">{{ t('about.p2_1') }}</router-link>
+		{{ t('about.p2_2') }}<router-link to="/game-projects">{{ t('about.p2_3') }}</router-link>
+		{{ t('about.p2_4') }}<router-link to="/resume">{{ t('about.p2_5') }}</router-link>
+		{{ t('about.p2_6') }}
+	</div>
 
-      <div style="margin-top: 40px;">Obecnie pracuję nad swoją grą <a href="mailto:johnmatrix@deltaforce.us">Astrolings</a> i szukam pracy. Możesz się ze mną skontaktować <router-link to="/contact">tutaj</router-link>.</div>
+    <div style="margin-top: 40px;">
+        {{ t('about.p3_0') }}<router-link to="/game-projects">{{ t('about.p3_1') }}</router-link>
+        {{ t('about.p3_2') }}<router-link to="/contact">{{ t('about.p3_3') }}</router-link>.
+    </div>
     </div>
 
     <div class="photo">

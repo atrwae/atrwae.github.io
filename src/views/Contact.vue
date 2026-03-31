@@ -1,9 +1,9 @@
 <template>
   <div>
     
-    <h1>Pogadajmy</h1>
+    <h1>{{ t('contact.title') }}</h1>
 
-    <div style="margin-bottom:40px;">Szukam nowych projektów !<br/>Pisz śmiało w sprawie jakichkolwiek projektów przy których mogę pomóc albo które mogę uratować :)</div>
+    <div style="margin-bottom:40px;" v-html="t('contact.p1')"></div>
 
     <ul>
       <li>
