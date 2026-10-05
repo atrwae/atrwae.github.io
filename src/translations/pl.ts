@@ -11,12 +11,12 @@
     about:
     {
         hello: 'Cześć!',
-        p1: `Nazywam się <strong>Artur Wiącek</strong>, jestem Unity Developerem z 3-letnim komercyjnym
+        p1: `Nazywam się <strong>Artur Wiącek</strong>, jestem Unity Developerem z 4-letnim komercyjnym
             doświadczeniem.<br/> Kocham wszystko co związane z grami, biorę udział w masie eventów,
             a oprócz wielu gier wideo zrobiłem swoją karciankę i nawet własną konsolę do gier.`,
         p2: `Komercyjnie pracowałem wyłącznie przy {{portowaniu}}, ale mam też sporo {{własnych projektów}} i innych
             rzeczy w {{moim cv}}.`,
-        p3: `Obecnie pracuję nad swoją grą {{Astrolings}} i szukam pracy. Możesz się ze mną skontaktować {{tutaj}}.`
+        p3: `Obecnie pracuję nad swoją grą {{Astrolings}} i portuję gry. Możesz się ze mną skontaktować {{tutaj}}.`
     },
     gameProjects: 
     {
