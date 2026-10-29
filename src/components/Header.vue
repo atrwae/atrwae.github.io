@@ -4,6 +4,7 @@
       <router-link to="/">{{ t('header.aboutMe') }}</router-link>
       <router-link to="/game-projects">{{ t('header.games') }}</router-link>
       <router-link to="/other-projects">{{ t('header.porting') }}</router-link>
+      <router-link to="/dot-net-projects">.NET</router-link>
       <router-link to="/resume">{{ t('header.cv') }}</router-link>
       <router-link to="/contact">{{ t('header.contact') }}</router-link>
 		<img

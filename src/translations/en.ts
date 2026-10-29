@@ -29,6 +29,11 @@
         title: 'Porting',
         p1: 'Ports to various consoles I worked on, most of them solo.'
     },
+    dotNetProjects:
+    {
+        title: '.NET',
+        p1: 'My .NET projects'
+    },
     resume:
     {
         p1: `I'm a Unity Developer from Warsaw, I'm 23 years old and have 3 years of commercial experience in game porting.
@@ -140,6 +145,7 @@
         viewCone: "Article 'Unity View Cone Tutorial'",
         viewConeDesc: `<a href="https://itch.io/blog/521186/unity-view-cone-tutorial" target="blank">Link to 
         the article</a>`,
+        superliminal: "Article 'Unity Superliminal Tutorial'",
         superliminalDesc: `<a href="https://itch.io/blog/547361/unity-superliminal-tutorial" target="blank">Link 
         to the article</a>`,
         hellHotelDesc: `A student project at the Warsaw University of Technology in which besides programming I 
@@ -194,6 +200,37 @@
         <br/>
         <br/><a href="https://www.nintendo.com/us/store/products/zombie-raft-switch/" target="blank">Zombie Raft on Nintendo eShop</a>.
         </div>`
+    },
+    dotNetProjectsData: 
+    {
+        familyTree: "Family Tree",
+        familyTreeDesc: `<div class="paragraph">
+            The App was created using <strong>SQL</strong> with SSMS, <strong>ReactFlow</strong>, TypeScript,
+            C# and a front-end library.
+            <br/>
+            <br/>
+            This project taught me how to make databases work with both C# and the front-end.
+            I've also learnt how to use SSMS, create and configurate databases.
+            <div class="paragraph center">
+                <img class="pc-screenshot" src="img/projects/family-tree-screenshot-3.png" alt="Family Tree Screenshot 1" />
+                <img class="pc-screenshot" src="img/projects/family-tree-screenshot-1.png" alt="Family Tree Screenshot 2" />
+                <img class="pc-screenshot" src="img/projects/family-tree-screenshot-2.png" alt="Family Tree Screenshot 3" />
+            </div>
+            </div>`,
+        weatherApp: "Weather app",
+        weatherAppDesc: `<div class="paragraph">
+            A simple app displaying a graph of temperature and precipitation for a chosen day.
+            <br/>
+            <br/>
+            While making it, I practiced <strong>asynchronous data fetching</strong> from an external
+            server using the 'fetch' command
+            and displaying said data in a user-friendly form. For the latter, I brushed up on
+            my <strong>React</strong> and <strong>TypeScript</strong>.
+            <br/>
+            <br/>
+            <br/><a href="https://atrwae.github.io/simple-react-weather-app/" target="blank">Link to the app</a>
+            <br/><a href="https://github.com/atrwae/simple-react-weather-app" target="blank">Link to the repository</a>
+            </div>`
     }
 }
 

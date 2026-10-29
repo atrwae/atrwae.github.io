@@ -8,7 +8,7 @@ export default [
     new ProjectData("project-2", t('gameProjectsData.viewCone'), "img/projects/viewConeArticle-thumbnail.mp4",
         t('gameProjectsData.viewConeDesc'), "#5a78af"),
 
-    new ProjectData("project-3", "Artykuł 'Unity Superliminal Tutorial'",
+    new ProjectData("project-3", t('gameProjectsData.superliminal'),
         "img/projects/superliminalArticle-thumbnail.mp4", t('gameProjectsData.superliminalDesc'), "#383838"),
 
     new ProjectData("project-4", "Hell Hotel", "img/projects/hellHotel-thumbnail.mp4",

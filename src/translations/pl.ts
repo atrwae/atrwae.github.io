@@ -29,6 +29,11 @@
         title: 'Portowanie',
         p1: 'Porty na różne konsole przy których pracowałem, większość solo.'
     },
+    dotNetProjects:
+    {
+        title: '.NET',
+        p1: 'Moje projekty .NET'
+    },
     resume: 
     {
         p1: `Jestem Unity Developerem z Warszawy, mam 23 lata i 3 lata komercyjnego doświadczenia przy portowaniu gier.
@@ -140,6 +145,7 @@
         viewCone: "Artykuł 'Unity View Cone Tutorial'",
         viewConeDesc: `<a href="https://itch.io/blog/521186/unity-view-cone-tutorial" target="blank">Link do 
             artykułu</a>`,
+        superliminal: "Artykuł 'Unity Superliminal Tutorial'",
         superliminalDesc: `<a href="https://itch.io/blog/547361/unity-superliminal-tutorial" target="blank">Link 
             do artykułu</a>`,
         hellHotelDesc: `Projekt studencki na Politechnice Warszawskiej w którym oprócz programowania sprawowałem 
@@ -193,6 +199,36 @@
             <br/>
             <br/>
             <br/><a href="https://www.nintendo.com/us/store/products/zombie-raft-switch/" target="blank">Zombie Raft na Nintendo eShop</a>.
+            </div>`
+    },
+    dotNetProjectsData: 
+    {
+        familyTree: "Drzewo genealogiczne",
+        familyTreeDesc: `<div class="paragraph">
+            Aplikacja została stworzona przy użyciu <strong>SQLa</strong> z SSMS, <strong>ReactFlow</strong>,
+            TypeScriptu, C# oraz biblioteki do frontendu.
+            <br/>
+            <br/>
+            Nauczyłem się w tym projekcie interfejsować bazy danych z C# i frontendem oraz używać SSMS,
+            tworzyć i konfigurować lokalne bazy danych.
+            <div class="paragraph center">
+                <img class="pc-screenshot" src="img/projects/family-tree-screenshot-3.png" alt="Drzewo genealogiczne Screenshot 1" />
+                <img class="pc-screenshot" src="img/projects/family-tree-screenshot-1.png" alt="Drzewo genealogiczne Screenshot 2" />
+                <img class="pc-screenshot" src="img/projects/family-tree-screenshot-2.png" alt="Drzewo genealogiczne Screenshot 3" />
+            </div>
+            </div>`,
+        weatherApp: "Aplikacja pogodowa",
+        weatherAppDesc: `<div class="paragraph">
+            Prosta aplikacja wyświetlająca wykres temperatury oraz ilości opadów na dany dzień.
+            <br/>
+            <br/>
+            Dzięki niej poćwiczyłem <strong>asynchroniczne pobieranie danych</strong> z serwera przy pomocy
+            komendy 'fetch'' i wyświetlanie ich w zrozumiałej dla użytkownika postaci przy pomocy
+            biblioteki <strong>React</strong> oraz <strong>TypeScriptu</strong>.
+            <br/>
+            <br/>
+            <br/><a href="https://atrwae.github.io/simple-react-weather-app/" target="blank">Link do aplikacji</a>
+            <br/><a href="https://github.com/atrwae/simple-react-weather-app" target="blank">Link do repo</a>
             </div>`
     }
 }
