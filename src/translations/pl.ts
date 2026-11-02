@@ -11,7 +11,7 @@
     about:
     {
         hello: 'Cześć!',
-        p1: `Nazywam się <strong>Artur Wiącek</strong>, jestem Unity Developerem z 4-letnim komercyjnym
+        p1: `Nazywam się <strong>Artur Wiącek</strong>, jestem Unity Developerem z 5-letnim komercyjnym
             doświadczeniem.<br/> Kocham wszystko co związane z grami, biorę udział w masie eventów,
             a oprócz wielu gier wideo zrobiłem swoją karciankę i nawet własną konsolę do gier.`,
         p2: `Komercyjnie pracowałem wyłącznie przy {{portowaniu}}, ale mam też sporo {{własnych projektów}} i innych
@@ -36,12 +36,12 @@
     },
     resume: 
     {
-        p1: `Jestem Unity Developerem z Warszawy, mam 23 lata i 3 lata komercyjnego doświadczenia przy portowaniu gier.
+        p1: `Jestem Unity Developerem z Warszawy, mam 25 lat i 5 lat komercyjnego doświadczenia przy portowaniu gier.
       <br />Próbowałem paru języków jak C++, Python i JavaScript ale najlepiej odnajduję się w C#.
       <br />
       <br />Lubię zarządzać zespołami jak mam okazję i wywierać wpływ na efekt końcowy wspólnej pracy. Uważam że gry są bardzo skomplikowanymi ale angażującymi tworami i mam nadzieję móc spędzić przy ich produkcji całe życie.
       <br />
-      <br />Na chwilę obecną pracuję przy własnej grze Astrolings i szukam pracy.
+      <br />Na chwilę obecną pracuję przy własnej grze Astrolings.
       <br />
       <br />Poza programowaniem pasjonuję się grami wideo oraz wspinaczką. Kocham sport, jazdę na rowerze i podróże.`,
         downloadButton: 'Pobierz jako PDF',

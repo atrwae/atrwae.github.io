@@ -11,12 +11,12 @@
     about:
     {
         hello: 'Hi!',
-        p1: `I'm <strong>Artur Wiącek</strong>, a Unity Developer with over 3 years of commercial experience.
+        p1: `I'm <strong>Artur Wiącek</strong>, a Unity Developer with over 5 years of commercial experience.
             <br/> I love everything games-related, I participate in lots of industry events
             and aside from creating video games I've also created my own card game and even my own wooden game console!`,
         p2: `Commercially I've worked solely on {{porting}}, but I also have lots of {{my own projects}} and other
             things in {{my CV}}.`,
-        p3: `Right now I'm working on my own game {{Astrolings}} and I'm looking for new projects. You can contact me {{here}}.`
+        p3: `Right now I work on my own game {{Astrolings}} and port games. You can contact me {{here}}.`
     },
     gameProjects:
     {
@@ -36,12 +36,12 @@
     },
     resume:
     {
-        p1: `I'm a Unity Developer from Warsaw, I'm 23 years old and have 3 years of commercial experience in game porting.
+        p1: `I'm a Unity Developer from Warsaw, I'm 25 years old and have 5 years of commercial experience in game porting.
   <br />I've tried a few languages like C++, Python and JavaScript but I feel most at home in C#.
   <br />
   <br />I enjoy managing teams when I get the chance and having an impact on the final result of our shared work. I believe games are very complex but engaging creations and I hope to spend my whole life making them.
   <br />
-  <br />At the moment I'm working on my own game Astrolings and looking for a job.
+  <br />At the moment I'm working on my own game Astrolings.
   <br />
   <br />Outside of programming I'm passionate about video games and climbing. I love sports, cycling and travelling.`,
         downloadButton: 'Download as PDF',
